@@ -4,7 +4,7 @@
     background-image: url("../images/grandCanyon.jpeg");
     background-size: cover;
 } */
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 810px) and (min-width: 620px) {
   /*width of nav bar to be 100%*/
   .navbar-brand {
     width: 100%;
