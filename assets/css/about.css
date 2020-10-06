@@ -1,0 +1,7 @@
+.banner {
+    display: table;
+    width: 100%;
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+    clear: both;
+  }

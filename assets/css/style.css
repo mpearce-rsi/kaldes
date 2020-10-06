@@ -34,14 +34,13 @@ body {
   padding-bottom: 0px !important;
   padding-left: 0px !important;
   background-color: #999999;
-  /* position: fixed;
-  top: 0px */
 }
 
 .navbar-brand {
   padding: 18px 16px;
   background-color: #42abdb;
   margin-bottom: 0px;
+  font-size: 2.0rem;
 }
 
 .navbar-nav {
@@ -49,17 +48,13 @@ body {
   padding-bottom: 13px;
 }
 
-.banner {
-  display: table;
-  width: 100%;
-  background-image: url("../images/grandCanyon1.jpeg");
-  background-size: cover;
-  clear: both;
-}
-
 .titleText {
     background-color: #42abdb;
     padding: 10px;
+}
+
+.lead {
+  font-size: 1.5rem;
 }
 
 footer {

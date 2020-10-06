@@ -1,0 +1,7 @@
+.banner {
+    display: table;
+    width: 100%;
+    background-image: url("../images/grandCanyon1.jpeg");
+    background-size: cover;
+    clear: both;
+  }
