@@ -37,10 +37,14 @@ body {
 }
 
 .navbar-brand {
-  padding: 18px 16px;
-  background-color: #42abdb;
+  padding-left: 30px;
+  background-color: #ffffff;
   margin-bottom: 0px;
   font-size: 2.0rem;
+}
+
+.logo {
+  height: 30px;
 }
 
 .navbar-nav {
