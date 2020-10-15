@@ -10,6 +10,7 @@
     crossorigin="anonymous"
   />
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css">
     <title>Kaldes Financial | Contact</title>
 </head>
 <body>
@@ -50,10 +51,42 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <form action="https://formspree.io/f/mbjpdrnp" method="POST">
-        
-        </form>
-        <h1>This is the Contact page</h1>
+        <h2>Contact Us</h2><br>
+        <p>We'll never share your information with anyone else without your consent.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <form action="https://formspree.io/f/mbjpdrnp" method="POST">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input class="form-control" type="text" id="name" name="name" placeholder="John Doe">
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input class="form-control" type="email" id="email" name="email" placeholder="john.doe@kaldesfinancial.com">
+              </div>
+              <div class="form-group">
+                <label for="phone">Best Contact Number:</label>
+                <input class="form-control" type="text" id="phone" name="phone" placeholder="602-555-1234">
+              </div>
+              <div class="form-group">
+                <label for="message">Subject:</label>
+                <textarea class="form-control" type="text" id="message" name="message" placeholder="How may we help you?"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <h4>Kaldes Financial, LLC</h4>
+            <p>(602) 290-1320 <br>
+            <a href="mailto:contact@kaldesfinancial.com">Contact@KaldesFinancial.com</a></p>
+            <br>
+            <p>Not what you were looking for? <a href="./apply.html">Click Here</a> to start an application today.</p>
+            <div class="row">
+              <div class="col-md-12 logoSpace">
+                <img src="./assets/images/logo.png" alt="logo" class="img-fluid bodyLogo">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
