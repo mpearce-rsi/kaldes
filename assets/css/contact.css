@@ -17,3 +17,7 @@
   .logoSpace {
       text-align: center;
   }
+
+  #success {
+      display: none;
+  }
