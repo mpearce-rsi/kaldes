@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/apply.css">
     <title>Kaldes Financial | Application</title>
 </head>
 
@@ -45,14 +46,110 @@
     </div>
     <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <form action="https://formspree.io/f/xeqpalad" method="POST">
-            
-            </form>
-            <h1>This is the Application page</h1>
-          </div>
+            <div class="col-md-12">
+                <h3>Application</h3>
+                <p>Thank you for applying with Kaldes Financial! Please fill out the form below and we will follow up
+                    with you to go over the next steps. We greatly appreciate the opportunity to earn your business!</p>
+                <form action="https://formspree.io/f/xeqpalad" method="POST">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="company">Company Name</label>
+                            <input type="text" class="form-control" name="Company name" id="company">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="contactName">Company Contact Name</label>
+                            <input type="text" class="form-control" name="Contact name" id="contactName">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="description">Brief description of your business (50 characters or less)</label>
+                            <input type="text" class="form-control" name="Description of business" id="description"
+                                maxlength="50">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="reason">Briefly descibe why you're looking for financing (50 characters
+                                or less)</label>
+                            <input type="text" class="form-control" name="Reason for financing" id="reason"
+                                maxlength="50">
+                        </div>
+                    </div>
+                    <h4>Annual Revenues</h4>
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="ebitda">Last year’s EBITDA and Net Income</label>
+                            <input type="text" class="form-control" name="EBITDA & Net" id="ebitda">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="arBal">Accounts Receivable Balance</label>
+                            <input type="text" class="form-control" name="Accounts receivable balance" id="arBal">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inventory">Inventory Balance</label>
+                            <input type="text" class="form-control" name="Inventory balance" id="inventory">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="nfaBal">Net Fixed Assets Balance</label>
+                            <input type="text" class="form-control" name="Net Fixed Assets Balance" id="nfaBal">
+                        </div>
+                        <div class=" form-group col-md-4">
+                            <label for="refiBal">Debt Balance to be Refinanced</label>
+                            <input type="text" class="form-control" name="Debt Balance to be Refinanced" id="refiBal">
+                        </div>
+                    </div>
+                    <h4>Contact Details</h4>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="email">Email Address:</label>
+                            <input type="text" class="form-control" name="Email" id="email">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="phone">Best Contact Number:</label>
+                            <input type="text" class="form-control" name="Phone" id="phone">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="type">Type:</label>
+                            <select type="select" class="form-control" name="Number type" id="type">
+                                <option value="Home">Home</option>
+                                <option value="Mobile">Cell</option>
+                                <option value="Work">Work</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-10">
+                            <label for="address">Street Address:</label>
+                            <input type="text" class="form-control" name="Address" id="address">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="ste">Suite:</label>
+                            <input type="text" class="form-control" name="Suite" id="ste">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="city">City:</label>
+                            <input type="text" class="form-control" name="City" id="city">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="state">State:</label>
+                            <input type="text" class="form-control" name="State" id="state">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="zip">ZIP:</label>
+                            <input type="text" class="form-control" name="ZIP" id="zip">
+                        </div>
+                    </div>
+                    <p>Note: you will be redirected by Formspree to ensure your information was delivered safely. Simply use the back button if you'd like to continue browsing!</p>
+                    <button type="submit" id="appBtn" class="btn btn-primary">Apply</button>
+                </form>
+            </div>
         </div>
-      </div>
+    </div>
     <footer>
         <div class="row">
             <div class="col-md-4">
@@ -60,14 +157,14 @@
             </div>
             <div class="col-md-4">
                 <ul>
-                    <li><a href ="./index.html">Home</li></a>
-                    <li><a href ="./about.html">Why Use Kaldes?</li></a>
-                    <li><a href ="./partners.html">Partners</li></a>
-                    <li><a href ="./clients.html">Clients</li></a>
-                    <li><a href ="./testimonials.html">Testimonials</li></a>
-                    <li><a href ="./apply.html">Application Form</li></a>
-                    <li><a href ="./contact.html">Contact</li></a>
-                  </ul>
+                    <li><a href="./index.html">Home</li></a>
+                    <li><a href="./about.html">Why Use Kaldes?</li></a>
+                    <li><a href="./partners.html">Partners</li></a>
+                    <li><a href="./clients.html">Clients</li></a>
+                    <li><a href="./testimonials.html">Testimonials</li></a>
+                    <li><a href="./apply.html">Application Form</li></a>
+                    <li><a href="./contact.html">Contact</li></a>
+                </ul>
             </div>
         </div>
     </footer>
