@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h3 class="navbar-brand" href="#">Kaldes Financial</h3>
+        <h3 class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt="company logo" class="img-fluid logo"></h3>
         <ul class="navbar-nav ml-auto flex-row">
             <li class="nav-item ">
                 <a class="nav-link" href="./index.html">Home</a>
@@ -23,12 +23,6 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./partners.html">Partners</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./clients.html">Clients</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./testimonials.html">Testimonials</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="./apply.html">Application Form<span class="sr-only">(current)</span></a>
@@ -47,7 +41,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h3>Application</h3>
+                <h2>Application</h2>
                 <p>Thank you for applying with Kaldes Financial! Please fill out the form below and we will follow up
                     with you to go over the next steps. We greatly appreciate the opportunity to earn your business!</p>
                 <form action="https://formspree.io/f/xeqpalad" method="POST">
@@ -63,42 +57,46 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-12">
-                            <label for="description">Brief description of your business (50 characters or less)</label>
-                            <input type="text" class="form-control" name="Description of business" id="description"
-                                maxlength="50">
+                            <label for="description">Brief description of your business</label>
+                            <textarea class="form-control" name="Description" id="description" rows="3"></textarea>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-12">
-                            <label for="reason">Briefly descibe why you're looking for financing (50 characters
-                                or less)</label>
-                            <input type="text" class="form-control" name="Reason for financing" id="reason"
-                                maxlength="50">
+                            <label for="reason">Briefly descibe why you're looking for financing</label>
+                            <textarea class="form-control" name="Reason for financing" id="reason" rows="3"></textarea>
                         </div>
                     </div>
-                    <h4>Annual Revenues</h4>
                     <div class="form-row">
-                        <div class="form-group col-md-8">
-                            <label for="ebitda">Last year’s EBITDA and Net Income</label>
-                            <input type="text" class="form-control" name="EBITDA & Net" id="ebitda">
+                        <div class="form-group col-md-3">
+                            <label for="annRev">Annual Revenues</label>
+                            <input type="text" class="form-control" name="Annual Revenues" id="annRev" value="$">
                         </div>
-                        <div class="form-group col-md-4">
+                        <div class="form-group col-md-3">
+                            <label for="ebitda">Last year’s EBITDA</label>
+                            <input type="text" class="form-control" name="EBITDA" id="" value="$">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="netinc">Last year’s Net Income</label>
+                            <input type="text" class="form-control" name="Net income" id="netinc" value="$">
+                        </div>
+                        <div class="form-group col-md-3">
                             <label for="arBal">Accounts Receivable Balance</label>
-                            <input type="text" class="form-control" name="Accounts receivable balance" id="arBal">
+                            <input type="text" class="form-control" name="Accounts receivable balance" id="arBal" value="$">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-4">
                             <label for="inventory">Inventory Balance</label>
-                            <input type="text" class="form-control" name="Inventory balance" id="inventory">
+                            <input type="text" class="form-control" name="Inventory balance" id="inventory" value="$">
                         </div>
                         <div class="form-group col-md-4">
                             <label for="nfaBal">Net Fixed Assets Balance</label>
-                            <input type="text" class="form-control" name="Net Fixed Assets Balance" id="nfaBal">
+                            <input type="text" class="form-control" name="Net Fixed Assets Balance" id="nfaBal" value="$">
                         </div>
                         <div class=" form-group col-md-4">
                             <label for="refiBal">Debt Balance to be Refinanced</label>
-                            <input type="text" class="form-control" name="Debt Balance to be Refinanced" id="refiBal">
+                            <input type="text" class="form-control" name="Debt Balance to be Refinanced" id="refiBal" value="$">
                         </div>
                     </div>
                     <h4>Contact Details</h4>
@@ -144,7 +142,7 @@
                             <input type="text" class="form-control" name="ZIP" id="zip">
                         </div>
                     </div>
-                    <p>Note: you will be redirected by Formspree to ensure your information was delivered safely. Simply use the back button if you'd like to continue browsing!</p>
+                    <p><b>Note:</b> You will be redirected by Formspree to ensure your information was delivered safely. Simply use the back button if you'd like to continue browsing!<br><b>We will always respond within 24 hours. Thank you for your inquiry!</b></p>
                     <button type="submit" id="appBtn" class="btn btn-primary">Apply</button>
                 </form>
             </div>
@@ -153,7 +151,7 @@
     <footer>
         <div class="row">
             <div class="col-md-4">
-                <h2>Kaldes Financial, LLC</h2>
+                <img src="./assets/images/logo.png" class="img-fluid footerLogo" alt="logo">
             </div>
             <div class="col-md-4">
                 <ul>

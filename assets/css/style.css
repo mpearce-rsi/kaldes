@@ -18,7 +18,13 @@
 
   .navbar {
     padding: 0 !important;
+
   }
+}
+
+.logo {
+  background-color: #f8f9fa;
+  height: 80px !important;
 }
 
 .nav-link {
@@ -34,11 +40,12 @@ body {
   padding-bottom: 0px !important;
   padding-left: 0px !important;
   background-color: #999999;
+  height: 100px;
 }
 
 .navbar-brand {
   padding-left: 30px;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
   margin-bottom: 0px;
   font-size: 2.0rem;
 }
@@ -57,19 +64,38 @@ body {
     padding: 10px;
 }
 
+.titleText h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
 .lead {
   font-size: 1.5rem;
+  font-style: italic;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.col-md-12 h2 {
+  margin-bottom: 15px;
 }
 
 footer {
   width: 100%;
   padding: 10px 20px;
-  background-color: #42abdb;
-  border-top: 8px solid #999999;
+  background-color: #cccccc;
+  border-top: 8px solid #42abdb;
+  margin-top: 15px;
 }
 
 footer ul {
   list-style: none;
+}
+
+.footerLogo {
+  height: 190px
 }
 
 footer a {
