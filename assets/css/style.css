@@ -85,8 +85,8 @@ body {
 footer {
   width: 100%;
   padding: 10px 20px;
-  background-color: #cccccc;
-  border-top: 8px solid #42abdb;
+  background-color: #42abdb;
+  border-top: 8px solid #999999;
   margin-top: 15px;
 }
 
