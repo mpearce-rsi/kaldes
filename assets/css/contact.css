@@ -1,3 +1,9 @@
+@media screen and (max-width: 767px) {
+    .bodyLogo {
+        display: none;
+    }
+}
+
 .banner {
     display: table;
     width: 100%;
