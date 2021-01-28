@@ -80,7 +80,7 @@
             <div class="form-group col-md-3">
               <label for="product">Name of Lending Product</label>
               <select class="form-control" name="Lending product" id="product">
-                <option value="Select">Please Select One...</option>
+                <option value="Select">Please Select One</option>
                 <option value="ABL">Asset based lending (ABL)</option>
                 <option value="Bridge Unsecured">Bridge Loans (Unsecured)</option>
                 <option value="Bridge Secured">Bridge Loans (Secured)</option>
@@ -122,7 +122,7 @@
             <div class="form-group col-md-3">
               <label for="collateral">Primary Collateral</label>
               <select class="form-control" name="Collateral" id="collateral">
-                <option value="Select">Please Select One...</option>
+                <option value="Select">Please Select One</option>
                 <option value="Accounts Receivable">Accounts Receivable</option>
                 <option value="Accounts Receivable & Inventory">Accounts Receivable & Inventory</option>
                 <option value="All Assets">All Assets</option>
@@ -159,7 +159,7 @@
             <div class="form-group col-md-3">
               <label for="closeTime">Typical Time to Close</label>
               <select name="Time to Close" class="form-control" id="closeTime">
-                <option value="Select">Please Select One...</option>
+                <option value="Select">Please Select One</option>
                 <option value="Over 90 days">Over 90 days</option>
                 <option value="60 - 90 days">60 - 90 days</option>
                 <option value="30 - 60 days">30 - 60 days</option>
@@ -171,6 +171,36 @@
             <div class="form-group col-md-9">
               <label for="addInfo">Other Comments Regarding Credit Criteria</label>
               <input type="text" class="form-control" name="Criteria Comments" id="addInfo">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <label for="cannabis">Cannabis Deals?</label>
+              <select name="Cannabis" id="cannabis" class="form-control">
+                <option value="Select">Please Select One</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                <option value="Depends">Depends</option>
+              </select>
+            </div>
+            <div class="form-group col-md-9">
+              <label for="cannabisDepends">If you selected "Depends", please clarify</label>
+              <input type="text" class="form-control" name="Cannabis Depends On" id="cannabisDepends">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <label for="oil">Oil & Gas Deals?</label>
+              <select name="Oil/Gas" id="oil" class="form-control">
+                <option value="Select">Please Select One</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                <option value="Depends">Depends</option>
+              </select>
+            </div>
+            <div class="form-group col-md-9">
+              <label for="oilDepends">If you selected "Depends", please clarify</label>
+              <input type="text" class="form-control" name="Oil Depends On" id="oilDepends">
             </div>
           </div>
           <p><b>Note:</b>After clicking “SUBMIT” below, you will be redirected to another page to ensure your
