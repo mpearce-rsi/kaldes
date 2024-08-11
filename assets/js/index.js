@@ -6,5 +6,7 @@ $(window).on("resize", function () {
 
 const youTubeHeight = $("#youtubedesc").height()
 console.log(youTubeHeight)
-
-$("#ytFrame").css("height", youTubeHeight)
+if ($(window).width() > 480) {
+  console.log("media")
+  $("#ytFrame").css("height", youTubeHeight)
+}
